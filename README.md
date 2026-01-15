@@ -63,37 +63,31 @@ CloudWatch CPU Alarm for ASG
 
 Folder Structure
 terraform-aws-3tier-infra/
-│
-├── provider.tf
-├── variables.tf
-├── outputs.tf
-├── main.tf
-│
-└── modules/
-    ├── vpc/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    │
-    ├── security_groups/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    │
-    ├── alb_asg/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    │
-    ├── storage/
-    │   ├── main.tf
-    │   ├── variables.tf
-    │   └── outputs.tf
-    │
-    └── monitoring/
-        ├── main.tf
-        ├── variables.tf
-        └── outputs.tf
+provider.tf
+variables.tf
+outputs.tf
+main.tf
+modules/
+    vpc/
+    main.tf
+    variables.tf
+    outputs.tf
+    security_groups/
+    main.tf
+    variables.tf
+    outputs.tf
+    alb_asg/
+    main.tf
+    ariables.tf
+    outputs.tf
+    storage/
+    main.tf
+    variables.tf
+    outputs.tf
+    monitoring/
+    main.tf
+    variables.tf
+    outputs.tf
 
 Prerequisites
 
